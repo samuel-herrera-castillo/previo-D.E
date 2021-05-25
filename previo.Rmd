@@ -7,9 +7,14 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## GitHub Documents
+## Este es un ejemplo del segundo previo
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+```{r}
+data("iris")
+
+iris
+```
+
 
 ## Including Code
 
